@@ -2,7 +2,7 @@
 
 /* Yearly Changes */
 /* 1) Update the per capita expenditures in the incpercap variable for each library, found in function calculate().
- * Last updated 2024-04-02 (2023 service data)
+ * Last updated 2026-03-23 (2025 service data)
  *
  * 2) Update the cost of materials & services in the materialsAndServices array, found in function prepareForm() at the bottom of the script
  * Last updated 2024-04-08 (2019 values from Maine Library Service)
@@ -65,219 +65,219 @@ function calculate() {
 	switch(library) {
 		//if no library is selected, use South Central Library System
 		case 'none':
-			incpercap = 62.56;
+			incpercap = 67.16;
 			yourlib = "SCLS LIBRARY SYSTEM";
 			break;
 		case 'acl':
-			incpercap = 28.04;
+			incpercap = 31.96;
 			yourlib = 'ADAMS COUNTY LIBRARY';
 			break;
 		case 'alb':
-			incpercap =  37.13;
+			incpercap =  38.49;
 			yourlib = 'ALBERTSON MEMORIAL LIBRARY';
 			break;
 		case 'amh':
-			incpercap = 32.78;
+			incpercap = 44.29;
 			yourlib = 'LETTIE W. JENSEN LIBRARY';
 			break;
 		case 'arp':
-			incpercap = 31.57;
+			incpercap = 31.73;
 			yourlib = 'LESTER PUBLIC LIBRARY OF ARPIN';
 			break;
 		case 'bar':
-			incpercap = 43.94;
+			incpercap = 48.32;
 			yourlib = 'CARNEGIE-SCHADDE MEMORIAL PUBLIC LIBRARY';
 			break;
 		case 'ber':
-			incpercap = 85.95;
+			incpercap = 104.24;
 			yourlib = 'BLACK EARTH PUBLIC LIBRARY';
 			break;
 		case 'blv':
-			incpercap = 116.40;
+			incpercap = 99.96;
 			yourlib = 'BELLEVILLE PUBLIC LIBRARY';
 			break;
 		case 'brd':
-			incpercap = 55.50;
+			incpercap = 58.37;
 			yourlib = 'BRODHEAD MEMORIAL PUBLIC LIBRARY';
 			break;
 		case 'cbr':
-			incpercap = 61.30;
+			incpercap = 54.10;
 			yourlib = 'CAMBRIDGE COMMUNITY LIBRARY';
 			break;
 		case 'cia':
-			incpercap = 81.93;
+			incpercap = 82.98;
 			yourlib = 'JANE MORGAN MEMORIAL LIBRARY';
 			break;
 		case 'col':
-			incpercap = 52.88;
+			incpercap = 54.69;
 			yourlib = 'COLUMBUS PUBLIC LIBRARY';
 			break;
 		case 'csp':
-			incpercap = 73.52;
+			incpercap = 72.07;
 			yourlib = 'ROSEMARY GARFOOT PUBLIC LIBRARY';
 			break;
 		case 'dee':
-			incpercap = 67.39;
+			incpercap = 67.45;
 			yourlib = 'DEERFIELD PUBLIC LIBRARY';
 			break;
 		case 'dft':
-			incpercap = 58.25;
+			incpercap = 58.64;
 			yourlib = 'DEFOREST AREA PUBLIC LIBRARY';
 			break;
 		case 'fch':
-			incpercap = 63.81;
+			incpercap = 66.40;
 			yourlib = 'FITCHBURG PUBLIC LIBRARY';
 			break;
 		case 'lav':
-			incpercap = 21.41;
+			incpercap = 21.78;
 			yourlib = 'LAVALLE PUBLIC LIBRARY';
 			break;
 		case 'ldi':
-			incpercap = 41.36;
+			incpercap = 45.15;
 			yourlib = 'LODI PUBLIC LIBRARY';
 			break;
 		case 'mar':
-			incpercap = 47.22;
+			incpercap = 48.56;
 			yourlib = 'MARSHALL COMMUNITY LIBRARY';
 			break;
 		case 'maz':
-			incpercap = 52.81;
+			incpercap = 55.43;
 			yourlib = 'MAZOMANIE FREE LIBRARY';
 			break;
 		case 'mcf':
-			incpercap = 76.16;
+			incpercap = 82.24;
 			yourlib = 'E.D. LOCKE PUBLIC LIBRARY';
 			break;
 		case 'mcm':
-			incpercap = 63.77;
+			incpercap = 62.66;
 			yourlib = 'MCMILLAN MEMORIAL LIBRARY';
 			break;
 		case 'mfd':
-			incpercap = 60.00;
+			incpercap = 64.84;
 			yourlib = 'EVERETT ROEHL MARSHFIELD PUBLIC LIBRARY';
 			break;
 		case 'mid':
-			incpercap = 60.06;
+			incpercap = 67.16;
 			yourlib = 'MIDDLETON PUBLIC LIBRARY';
 			break;
 		case 'mnt':
-			incpercap = 57.02;
+			incpercap = 62.91;
 			yourlib = 'MONTICELLO PUBLIC LIBRARY';
 			break;	
 		case 'moo':
-			incpercap = 76.58;
+			incpercap = 103.94;
 			yourlib = 'MONONA PUBLIC LIBRARY';
 			break;
 		case 'mad':
-			incpercap = 71.52;
+			incpercap = 77.78;
 			yourlib = 'MADISON PUBLIC LIBRARY';
 			break;
 		case 'mro':
-			incpercap = 69.03;
+			incpercap = 70.31;
 			yourlib = 'MONROE PUBLIC LIBRARY';
 			break;
 		case 'mth':
-			incpercap = 63.79;
+			incpercap = 66.21;
 			yourlib = 'MOUNT HOREB PUBLIC LIBRARY';
 			break;
 		case 'nek':
-			incpercap = 57.54;
+			incpercap = 59.97;
 			yourlib = 'CHARLES & JOANN LESTER LIBRARY';
 			break;
 		case 'ngl':
-			incpercap = 85.71;
+			incpercap = 95.47;
 			yourlib = 'NEW GLARUS PUBLIC LIBRARY';
 			break;
 		case 'nof':
-			incpercap = 94.59;
+			incpercap = 102.89;
 			yourlib = 'NORTH FREEDOM PUBLIC LIBRARY';
 			break;
 		case 'ore':
-			incpercap = 74.71;
+			incpercap = 91.37;
 			yourlib = 'OREGON PUBLIC LIBRARY';
 			break;
 		case 'par':
-			incpercap = 42.56;
+			incpercap = 42.46;
 			yourlib = 'ANGIE W. COX PUBLIC LIBRARY';
 			break;
 		case 'stp':
-			incpercap = 29.18;
+			incpercap = 30.50;
 			yourlib = 'PORTAGE COUNTY PUBLIC LIBRARY';
 			break;
 		case 'pds':
-			incpercap = 92.06;
+			incpercap = 106.64;
 			yourlib = 'RUTH CULVER COMMUNITY LIBRARY';
 			break;
 		case 'pit':
-			incpercap = 22.04;
+			incpercap = 38.90;
 			yourlib = 'PITTSVILLE COMMUNITY LIBRARY';
 			break;	
 		case 'pla':
-			incpercap = 86.81;
+			incpercap = 88.04;
 			yourlib = 'KRAEMER LIBRARY & COMMUNITY CENTER';
 			break;
 		case 'por':
-			incpercap = 60.37;
+			incpercap = 59.17;
 			yourlib = 'PORTAGE PUBLIC LIBRARY';
 			break;
 		case 'poy':
-			incpercap = 58.46;
+			incpercap = 59.74;
 			yourlib = 'POYNETTE PUBLIC LIBRARY';
 			break;
 		case 'ran':
-			incpercap = 102.24;
+			incpercap = 89.75;
 			yourlib = 'HUTCHINSON MEMORIAL LIBRARY';
 			break;
 		case 'ree':
-			incpercap = 49.02;
+			incpercap = 52.30;
 			yourlib = 'REEDSBURG PUBLIC LIBRARY';
 			break;
 		case 'rio':
-			incpercap = 94.01;
+			incpercap = 92.18;
 			yourlib = 'RIO COMMUNITY LIBRARY';
 			break;
 		case 'rks':
-			incpercap = 62.50;
+			incpercap = 70.22;
 			yourlib = 'ROCK SPRINGS PUBLIC LIBRARY';
 			break;
 		case 'rom':
-			incpercap = 85.30;
+			incpercap = 96.93;
 			yourlib = 'LESTER PUBLIC LIBRARY OF ROME';
 			break;
 		case 'sgr':
-			incpercap = 65.95;
+			incpercap = 69.97;
 			yourlib = 'SPRING GREEN COMMUNITY LIBRARY';
 			break;
 		case 'skc':
-			incpercap = 62.29;
+			incpercap = 84.25;
 			yourlib = 'GEORGE CULVER COMMUNITY LIBRARY';
 			break;
 		case 'sto':
-			incpercap = 56.66;
+			incpercap = 52.84;
 			yourlib = 'STOUGHTON PUBLIC LIBRARY';
 			break;
 		case 'sun':
-			incpercap = 50.65;
+			incpercap = 54.17;
 			yourlib = 'SUN PRAIRIE PUBLIC LIBRARY';
 			break;
 		case 'ver':
-			incpercap = 75.67;
+			incpercap = 81.72;
 			yourlib = 'VERONA PUBLIC LIBRARY';
 			break;
 		case 'ves':
-			incpercap = 38.13;
+			incpercap = 38.57;
 			yourlib = 'LESTER PUBLIC LIBRARY OF VESPER';
 			break;
 		case 'wau':
-			incpercap = 84.26;
+			incpercap = 76.89;
 			yourlib = 'WAUNAKEE PUBLIC LIBRARY';
 			break;
 		case 'wid':
-			incpercap = 89.82;
+			incpercap = 99.16;
 			yourlib = 'KILBOURN PUBLIC LIBRARY';
 			break;
 		case 'wyo':
-			incpercap = 41.55;
+			incpercap = 42.06;
 			yourlib = 'WYOCENA PUBLIC LIBRARY';
 			break;
 	}
